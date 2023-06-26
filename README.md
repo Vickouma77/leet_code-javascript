@@ -1,2 +1,2 @@
-# Node_login
-A simple responsive Login and register page made with node.js and mysql
+# 01_Node
+This repository contains files for node.js practise
