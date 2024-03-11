@@ -10,7 +10,7 @@ It defines the scope of a variable by the position of the variable declared in t
 let name = 'sarah';
 
 function greetings() {
-    let message = 'Helo';
+    let message = 'Hello';
     console.log(message + ' ' + name);
 }
 ```
@@ -19,7 +19,7 @@ function greetings() {
 
 * `message` is a local variable and is only accessible within the `greeting()` function. Trying to access it outside the function will result to an error.
 
-[*] In lexical scoping , scopes can be nested and the inner function can access the variable declared in the outer scope. example:
+=> In lexical scoping , scopes can be nested and the inner function can access the variable declared in the outer scope. example:
 
 ```
 funcion greetings() {
