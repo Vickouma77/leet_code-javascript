@@ -172,4 +172,4 @@ In this article, we have learned about the JavaScript array length, map, filter,
 
 ## :pencil: Author
 
-Vick Preston
+* [Vick Preston](https://github.com/Vickouma77)
