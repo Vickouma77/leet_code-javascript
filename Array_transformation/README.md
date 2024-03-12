@@ -164,6 +164,7 @@ In this article, we have learned about the JavaScript array length, map, filter,
 
 ## :link: References
 
+* [JavaScript Array Methods](https://www.javascripttutorial.net/javascript-array-methods/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 * [JavaScript.info](https://javascript.info/array-methods)
 * [W3Schools](https://www.w3schools.com/jsref/jsref_obj_array.asp)
