@@ -13,7 +13,8 @@
 The `length` property behaves differently depending on the array types including dense and sparse.
 
 #### Dense Array
-A dense array is an array in which the elements are contiguous. The `length` property of a dense array is always one more than the highest index of the array. > :bulb: `length = highest index + 1` (indexes starting at zero.)
+A dense array is an array in which the elements are contiguous. The `length` property of a dense array is always one more than the highest index of the array. 
+> :bulb: `length = highest index + 1` (indexes starting at zero.)
 The `length` property is used to get the number of elements in the array. For example:
 
 ```javascript
