@@ -82,7 +82,7 @@ The `callback()` function takes three arguments:
 * `array`: The array that `map()` was called upon.
 
 ```
-:bulb: The `map()` method does not change the original array.
+>:bulb: The `map()` method does not change the original array.
 ```
 
 ## JavaScript Array Filter
