@@ -81,8 +81,7 @@ The `callback()` function takes three arguments:
 * `index`: The index of the current element being processed in the array.
 * `array`: The array that `map()` was called upon.
 
-```
->:bulb: The `map()` method does not change the original array.
-```
+
+> :bulb: The `map()` method does not change the original array.
 
 ## JavaScript Array Filter
