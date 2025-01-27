@@ -13,17 +13,17 @@ pub async fn create_user(user: web::Json<CreateUser>) -> HttpResponse {
     HttpResponse::Created().json(new_user)
 }
 
-pub async fn get_user(user_id: web::path<Uuid>) -> HttpResponse {
-    //mocking user for this use case
+pub async fn get_user(user_id: web::Path<Uuid>) -> HttpResponse {
+    // For now, we'll just mock a user response.
     let mock_user = User {
         id: *user_id,
         username: String::from("mock_user"),
-        email: String::from("mock_user@test.com"),
+        email: String::from("mock_user@example.com"),
     };
 
     HttpResponse::Ok().json(mock_user)
 }
 
 pub async fn health_check() -> HttpResponse {
-    HttpResponse::Ok().finish()
+    HttpResponse::Ok().json("API is up and running!")
 }
